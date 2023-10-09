@@ -39,4 +39,4 @@ jobs:
           app-name: 'FnAppDigiIpEP'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C6B4AE38211843F6BA1865F56AE9A8D9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_15B4740DCAA7422A9097AEB7A10DAF0F }}
