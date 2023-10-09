@@ -8,7 +8,7 @@ namespace main.function
 {
     public class ParseXLSBFunction
     {
-        [FunctionName("ParseXLSBFunction")]
+        [FunctionName("FnDigiIpBlobTrigger")]
         public void Run([BlobTrigger("samples/{name}", Connection = "AzureWebJobsStorage")]Stream myBlob,
                         [Blob("output/{name}.xlsx", FileAccess.Write, Connection = "AzureWebJobsStorage")] Stream outputBlob, 
                         string name, ILogger log)
